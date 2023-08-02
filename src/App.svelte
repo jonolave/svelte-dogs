@@ -26,7 +26,6 @@
 
   {#if data}
     <button on:click={fetchData}>Ny hund!</button>
-    <br />
     <img src={data.message} alt="A dog" class="max-image-size" />
   {:else}
     <p>Loading...</p>
@@ -35,6 +34,7 @@
 
 <style>
   .max-image-size {
+    margin: 40px 0px;
     max-width: 100%;
     height: auto; 
     width: auto; 
