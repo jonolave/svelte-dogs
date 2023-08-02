@@ -35,9 +35,9 @@
 
 <style>
   .max-image-size {
-    margin: 40px;
-    max-width: 500px;
+    max-width: 100%;
+    height: auto; 
+    width: auto; 
     max-height: 400px;
-    height: auto; /* Ensures the aspect ratio is maintained */
   }
 </style>
