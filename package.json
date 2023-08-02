@@ -1,15 +1,19 @@
 {
-  "name": "svelte-hunder",
+  "name": "svelte-hundebilde",
+  "homepage": "https://jonolave.github.io/svelte-dogs/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "gh-pages": "^5.0.0",
     "svelte": "^4.0.5",
     "vite": "^4.4.5"
   }
